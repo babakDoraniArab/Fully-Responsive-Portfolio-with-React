@@ -4,10 +4,11 @@
 
   /*==================================================  Colors ================================================== */
   /* Change favorite color. if you change the --hue-color all the colors changed based on this color so be my guest */
-  --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  //https://hslpicker.com/ go to this page and choose your color
+  --hue-color: 187; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color: hsl(var(--hue-color), 51%, 51%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 61%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -49,6 +50,8 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+  /*========== transition x ==========*/
+  --transition-speed: 400ms ease;
 }
 
 /* Font size for large devices */
@@ -142,3 +145,21 @@ img {
 
 $breakpoint-medium: 767px;
 $breakpoint-small: 565px;
+
+/* ============================================= Buttons ================================================== */
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
