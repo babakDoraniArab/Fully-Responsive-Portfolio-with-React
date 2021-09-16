@@ -2,6 +2,7 @@ import React from "react";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Home from "./components/HomeSection/Home";
+import Skills from "./components/Skills/SkillsList";
 import "./_base.scss";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className="main">
         <Home />
         <About />
+        <Skills />
       </div>
     </div>
   );

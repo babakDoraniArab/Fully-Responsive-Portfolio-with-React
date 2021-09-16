@@ -33,6 +33,7 @@
   --smaller-font-size: 0.75rem;
 
   /*========== Font weight ==========*/
+  --font-weight-small: 200;
   --font-medium: 500;
   --font-semi-bold: 600;
 
@@ -104,7 +105,7 @@ img {
 
 /* ==================================== Reusable CSS classes ======================================= */
 .section {
-  padding: 2rem;
+  padding: 0.25rem;
 }
 .section__title {
   font-size: var(--h1-font-size);

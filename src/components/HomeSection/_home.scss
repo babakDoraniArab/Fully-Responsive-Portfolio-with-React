@@ -44,6 +44,8 @@
     }
     &__scroll {
       display: none;
+      // justify-content: center;
+      // margin-top: 16px;
       &_button {
         transition: var(--transition-speed);
         &_mouse {

@@ -8,7 +8,7 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
       <div className="about__container container grid">
         <img src="/images/about.jpg" alt="" className="about__img" />
-        <div class="about__data">
+        <div className="about__data">
           <p className="about__description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
             est rem debitis corrupti deleniti illum consequatur dolorem quod

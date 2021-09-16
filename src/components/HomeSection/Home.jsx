@@ -14,6 +14,7 @@ const Home = () => {
           <div className="home__container__content__social">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/babakDoraniArab"
               className="home__container__content__social__icon"
             >
@@ -21,6 +22,7 @@ const Home = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/babak-doraniarab-018a9a53/"
               className="home__container__content__social__icon"
             >
@@ -28,6 +30,7 @@ const Home = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://t.me/babakDoraniBarnameNevisi"
               className="home__container__content__social__icon"
             >
