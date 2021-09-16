@@ -57,7 +57,7 @@ const Home = () => {
                 />
                 <image
                   x="2"
-                  y="-32"
+                  y="-27"
                   className="home__container__content__img__blob-img"
                   href="/images/babaDorani-min.png"
                 />
