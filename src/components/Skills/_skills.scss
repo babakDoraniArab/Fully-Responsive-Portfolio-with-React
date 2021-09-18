@@ -21,7 +21,11 @@
     }
     &__arrow {
       margin-left: auto;
-      transition: var(--transition-speed);
+
+      -moz-transition: height var(--transition-speed) ease;
+      -webkit-transition: height var(--transition-speed) ease;
+      -o-transition: height var(--transition-speed) ease;
+      transition: height var(--transition-speed) ease;
     }
     &__title {
       font-size: var(--h3-font-size);
@@ -62,14 +66,20 @@
 .skills__content__list {
   row-gap: 1.5rem;
   padding-left: 2.7rem;
+  max-height: 0;
+  transition: max-height;
+  -moz-transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
   transition: all 700ms ease;
 }
 .skills__close .skills__content__list {
-  height: 0;
+  max-height: 0;
+
   overflow: hidden;
 }
 .skills__open .skills__content__list {
-  height: max-content;
+  max-height: max-content;
   margin-bottom: var(--mb-1);
 }
 .skills__open .skills__content__header__arrow {

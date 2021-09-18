@@ -46,7 +46,7 @@ const Skills = () => {
     },
     {
       name: "css",
-      percent: "75",
+      percent: "85",
     },
     
     {
